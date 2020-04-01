@@ -1,12 +1,23 @@
 # ![](https://fonts.gstatic.com/s/i/materialicons/bookmarks/v4/24px.svg) Task Runner
+[![](https://img.shields.io/github/v/release/codemodify/systemkit-taskrunner?style=flat-square)](https://github.com/codemodify/systemkit-taskrunner/releases/latest)
+![](https://img.shields.io/github/languages/code-size/codemodify/systemkit-taskrunner?style=flat-square)
+![](https://img.shields.io/github/last-commit/codemodify/systemkit-taskrunner?style=flat-square)
+[![](https://img.shields.io/badge/license-0--license-brightgreen?style=flat-square)](https://github.com/codemodify/TheFreeLicense)
 
-[![GoDoc](https://godoc.org/github.com/codemodify/systemkit-dsa?status.svg)](https://godoc.org/github.com/codemodify/SystemKit)
-[![0-License](https://img.shields.io/badge/license-0--license-brightgreen)](https://github.com/codemodify/TheFreeLicense)
-[![Go Report Card](https://goreportcard.com/badge/github.com/codemodify/SystemKit)](https://goreportcard.com/report/github.com/codemodify/SystemKit)
-[![Test Status](https://github.com/danawoodman/systemservice/workflows/Test/badge.svg)](https://github.com/danawoodman/systemservice/actions)
-![code size](https://img.shields.io/github/languages/code-size/codemodify/systemkit-taskrunner?style=flat-square)
+![](https://img.shields.io/github/workflow/status/codemodify/systemkit-taskrunner/qa?style=flat-square)
+![](https://img.shields.io/github/issues/codemodify/systemkit-taskrunner?style=flat-square)
+[![](https://goreportcard.com/badge/github.com/codemodify/systemkit-taskrunner?style=flat-square)](https://goreportcard.com/report/github.com/codemodify/systemkit-taskrunner)
 
-Runs a group of tasks sequentially or in parallel, can collect teir results in map-reduce style
+[![](https://img.shields.io/badge/godoc-reference-brightgreen?style=flat-square)](https://godoc.org/github.com/codemodify/systemkit-taskrunner)
+![](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
+![](https://img.shields.io/gitter/room/codemodify/systemkit-taskrunner?style=flat-square)
+
+![](https://img.shields.io/github/contributors/codemodify/systemkit-taskrunner?style=flat-square)
+![](https://img.shields.io/github/stars/codemodify/systemkit-taskrunner?style=flat-square)
+![](https://img.shields.io/github/watchers/codemodify/systemkit-taskrunner?style=flat-square)
+![](https://img.shields.io/github/forks/codemodify/systemkit-taskrunner?style=flat-square)
+
+### Runs a group of tasks sequentially or in parallel, can collect teir results in map-reduce style
 
 A task is an abstract construct
 

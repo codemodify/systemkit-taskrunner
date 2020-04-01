@@ -1,5 +1,7 @@
 github.com/codemodify/SystemKit v1.7.3 h1:6KgX+8QsTxDBd06x9ww2vqUj928vz5n3/twh4mbv9vI=
 github.com/codemodify/SystemKit v1.7.3/go.mod h1:KKn3HcCBZURVS8AbQanXxsyUbHsGhnIinVpAkSPVzXk=
+github.com/codemodify/SystemKit v1.7.4 h1:glqH7m+qxEQoUXWuLXhzHHLgV9sYYUPM1rRWVz66tRg=
+github.com/codemodify/SystemKit v1.7.4/go.mod h1:KKn3HcCBZURVS8AbQanXxsyUbHsGhnIinVpAkSPVzXk=
 github.com/codemodify/systemkit-cryptography v1.0.0/go.mod h1:xpC1R/KccPhPrmY9Vs5lcOrESMlAZfJ/xrbqrfuFve0=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davidmz/go-pageant v1.0.1/go.mod h1:WWOKE/93DhgsPq15jaipH4fVY+MLKKWH4Yku5Ei92rE=

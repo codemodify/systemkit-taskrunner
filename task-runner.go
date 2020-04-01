@@ -4,12 +4,12 @@ import (
 	"encoding/json"
 	"sync"
 
-	logging "github.com/codemodify/SystemKit/Logging"
-	loggingC "github.com/codemodify/SystemKit/Logging/Contracts"
+	logging "github.com/codemodify/systemkit-logging"
+	loggingC "github.com/codemodify/systemkit-logging/contracts"
 
-	helpersGuid "github.com/codemodify/SystemKit/Helpers"
-	helpersReflect "github.com/codemodify/SystemKit/Helpers"
-	helpersStrings "github.com/codemodify/SystemKit/Helpers"
+	helpersGuid "github.com/codemodify/systemkit-helpers"
+	helpersReflect "github.com/codemodify/systemkit-helpers"
+	helpersStrings "github.com/codemodify/systemkit-helpers"
 )
 
 // Preparer - Does the "factory" and sets the `RunTaskInstance`
