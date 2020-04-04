@@ -17,10 +17,28 @@
 ![](https://img.shields.io/github/watchers/codemodify/systemkit-taskrunner?style=flat-square)
 ![](https://img.shields.io/github/forks/codemodify/systemkit-taskrunner?style=flat-square)
 
-### Runs a group of tasks sequentially or in parallel, can collect teir results in map-reduce style
+#### Runs a group of tasks sequentially or in parallel, can collect teir results in map-reduce style
 
-A task is an abstract construct
+#### A task is an abstract construct
 
+#### Supported: Linux, Raspberry Pi, FreeBSD, Mac OS, Windows, Solaris
+
+# ![](https://fonts.gstatic.com/s/i/materialicons/bookmarks/v4/24px.svg) Install
+```go
+go get github.com/codemodify/systemkit-taskrunner
+```
+# ![](https://fonts.gstatic.com/s/i/materialicons/bookmarks/v4/24px.svg) API
+
+&nbsp;																| &nbsp;
+---     															| ---
+NewTaskRunner() | NewTaskRunner
+Run() | 
+
+
+# ![](https://fonts.gstatic.com/s/i/materialicons/bookmarks/v4/24px.svg) Usage
+```go
+
+```
 # ![](https://fonts.gstatic.com/s/i/materialicons/bookmarks/v4/24px.svg) Refs
 
 https://help.github.com/en/actions/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions
