@@ -5,11 +5,10 @@ import (
 	"sync"
 
 	logging "github.com/codemodify/systemkit-logging"
-	loggingC "github.com/codemodify/systemkit-logging/contracts"
 
-	helpersGuid "github.com/codemodify/systemkit-helpers"
-	helpersReflect "github.com/codemodify/systemkit-helpers"
-	helpersStrings "github.com/codemodify/systemkit-helpers"
+	helpersStrings "github.com/codemodify/systemkit-helpers-conv"
+	helpersGuid "github.com/codemodify/systemkit-helpers-guid"
+	helpersReflect "github.com/codemodify/systemkit-helpers-reflection"
 )
 
 // Preparer - Does the "factory" and sets the `RunTaskInstance`
@@ -47,11 +46,7 @@ func (thisRef *TaskRunner) prep(task *Task) {
 		// Get the bytes
 		runParamsAsBytes, err := json.Marshal(task.RunParams)
 		if err != nil {
-			logging.Instance().LogErrorWithFields(loggingC.Fields{
-				"method":  helpersReflect.GetThisFuncName(),
-				"message": err.Error(),
-				"payload": task.RunParams,
-			})
+			logging.Instance().Errorf("%s, %s, %s", err.Error(), task.RunParams, helpersReflect.GetThisFuncName())
 
 			return
 		}
