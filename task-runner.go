@@ -46,7 +46,7 @@ func (thisRef *TaskRunner) prep(task *Task) {
 		// Get the bytes
 		runParamsAsBytes, err := json.Marshal(task.RunParams)
 		if err != nil {
-			logging.Instance().Errorf("%s, %s, %s", err.Error(), task.RunParams, helpersReflect.GetThisFuncName())
+			logging.Errorf("%s, %s, %s", err.Error(), task.RunParams, helpersReflect.GetThisFuncName())
 
 			return
 		}
